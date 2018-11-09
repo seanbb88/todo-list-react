@@ -1,0 +1,26 @@
+.list-item{
+    position: relative;
+}
+
+.deleteBtn {
+background: lightcoral; 
+border: 1px solid white;
+border-radius: 5px;  
+position: absolute; 
+right: 2px; 
+top: 2px; 
+color: white; 
+font-size: 13px; 
+
+}
+
+.deleteBtn:hover {
+    background: rgb(207, 31, 31);  
+    border: 1px solid white;
+    border-radius: 5px;  
+    position: absolute; 
+    right: 2px; 
+    top: 2px; 
+    color: white; 
+    
+    }

@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import './TodoItem.css'
+
 class TodoItems extends Component {
     constructor(props) {
         super(props)
@@ -10,12 +12,14 @@ class TodoItems extends Component {
         this.props.delete(key);
     }
     createTask(item) {
-        console.log(item.value);
+        console.log(item); 
         return <li className="list-item"
             key={item.key}>
             {item.text}<br></br>
-            <a href={item.link}>{item.link}</a>
+            {!item.link ? "" : "Link: "} <a href={item.link}>{item.link}</a> <br></br>
+            Task Created: {item.time}
             <button
+                className="deleteBtn"
                 onClick={() => this.delete(item.key)} type="submit"> x </button>
         </li>
     }

@@ -48,6 +48,7 @@ select.mandy {
     margin-top: 5px; 
     margin-right: 2px; 
     height: 35px;
+    margin-left: 5px; 
 }
 
 input.nick {
@@ -58,4 +59,12 @@ input.nick {
 li.list-item {
     width: 65%; 
     
+}
+
+.addLink {
+    color: white;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-top: 11px;
+    margin-bottom: 5px;
 }
