@@ -3,3 +3,59 @@
     flex-direction: row; 
     flex-wrap: wrap; 
 }
+
+.todoListMain .header input {
+    padding: 3px; 
+    border: 2px solid #fff; 
+    font-size: 16px; 
+    width: 165px; 
+}
+
+.todoListMain .header button {
+    padding: 10px; 
+    font-size: 16px; 
+    margin-right: 0px; 
+    color: #fff; 
+    border: 2px solid #0066ff; 
+    background-color: #0066ff; 
+}
+
+.todoListMain .header button:hover {
+    background-color: #003399; 
+    border: 2px solid #003399; 
+
+}
+
+.todoListMain .theList li {
+    color: #333; 
+    background-color: rgba(255,255,255,.5); 
+    padding: 15px; 
+    margin-bottom: 15px; 
+    border-radius: 5px; 
+    list-style: none; 
+}
+
+ul.theList {
+    padding: 0; 
+    margin-top: 40px; 
+}
+
+input.mandy {
+    width: 80% !important; 
+}
+
+select.mandy {
+    margin-top: 5px; 
+    margin-right: 2px; 
+    height: 35px;
+}
+
+input.nick {
+    margin-top: 5px; 
+    height: 25px !important;
+}
+
+li.list-item {
+    width: 65%; 
+    
+}
